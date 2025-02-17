@@ -6,8 +6,26 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Program.AddAuthor(new Author{FirstName="Chuck", LastName="Palahniuk"});
-        Program.GetAllAuthors();
+
+    }
+    /// <summary>
+    /// Задание №1
+    /// Написать реализацию для метода AddBook. Метод должен добавлять
+    /// в контекст новую книжку и сохранять её в БД.
+    /// </summary>
+    static void AddBook(Book book)
+    {
+        throw new NotImplementedException();
+    }
+
+    /// <summary>
+    /// Задание №2
+    /// Написать реализацию для метода AddPublisher. Метод должен 
+    /// добавлять в контекст новое издательство и сохранить его в БД.
+    /// </summary>
+    static void AddPublisher(Publisher publisher)
+    {
+        throw new NotImplementedException();
     }
 
     static void AddAuthor(Author author)
@@ -33,6 +51,26 @@ class Program
     //         } 
     //     }
     // }
+
+    /// <summary>
+    /// Задание №3
+    /// Написать реализацию для метода GetAllBooks. Метод должен 
+    /// выводить список книг.
+    /// </summary>
+    static void GetAllBooks()
+    {
+        throw new NotImplementedException();
+    }
+
+    /// <summary>
+    /// Задание №4
+    /// Написать реализацию для метода GetAllPublishers. Метод должен 
+    /// выводить список издательств.
+    /// </summary>
+    static void GetAllPublishers()
+    {
+        throw new NotImplementedException();
+    }
 
     static void GetAllAAuthors()
     {
